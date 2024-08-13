@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 6%;
+}
+
+.carousel-height {
+  height: 500px;
+}
+
+.image-carousel {
+  background-size: contain;
+}
+
+.titulos-secciones {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.titulocard {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.Precio {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.testimonios__titulo-seccion {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.testimonios__borde {
+  border: solid 1px #fff;
+  opacity: 100%;
+  margin-bottom: 3rem;
+}
+
+.testimonios-contenedor-seccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.testimonios-contenedor {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonios-contenedor__texto {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+.testimonios-contenedor__foto {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: #fff solid 1px;
+}
+.testimonios-contenedor__autor {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 576px) {
+  #main {
+    padding: 0px 30px;
+  }
+  .carousel-height {
+    height: 300px;
+  }
+  #imagen-presentacion {
+    display: none;
+  }
+  .testimonios-contenedor-seccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .testimonios-contenedor {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  .testimonios-contenedor__texto {
+    text-align: left;
+  }
+  .testimonios-contenedor__foto {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+}/*# sourceMappingURL=custom.css.map */
